@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\ASP.Net\BookStore\Book-Store\SukiBookStore\SukiBookStoreMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP/Desktop/ASP.Net/BookStore/Book-Store/SukiBookStore/SukiBookStoreMvc/Views/Genre/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ASP.Net/BookStore/Book-Store/SukiBookStore/SukiBookStoreMvc/Views/Genre/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ASP.Net/BookStore/Book-Store/SukiBookStore/SukiBookStoreMvc/Views/Genre/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/Desktop/ASP.Net/BookStore/Book-Store/SukiBookStore/SukiBookStoreMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
