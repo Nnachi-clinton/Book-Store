@@ -53,6 +53,7 @@ namespace SukiBookStoreMvc.Controllers
             var result = _genreService.Update(model);
             if (result)
             {
+                TempData["message"] = "Updated successfully";
                 return RedirectToAction("GetAll");
             }
             TempData["message"] = "Error has occured on server side";
