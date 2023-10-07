@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SukiBookStoreMvc.Models.Domain;
+using SukiBookStoreMvc.Repositories.Abstrsct;
+using SukiBookStoreMvc.Repositories.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DataBaseContext>(options=>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IGenreService, GenreService>();
 
 var app = builder.Build();
 
